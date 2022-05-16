@@ -1,9 +1,9 @@
-##_> bearrobotics_project_
+## > bearrobotics_project
 Implement a simple ATM controller<br>
 >Insert Card => Chcek PIN number => See Balance/Deposit/Withdraw
 
 
-##_> Requirements_
+## > Requirements
 
 >python 3.8+
 
@@ -17,10 +17,8 @@ account_list.append(UserData("1000000000000000", "1234", "9999999999", 90))
 ```
 Make Atm instance and insert card number.
 ```
-# use atm
 atm = Atm(account_list)
 
-# insert card
 card = input("Please Insert Card\n")
 result = atm.insert_card(card)
 ```
@@ -31,7 +29,6 @@ After chacking card information, ATM User can choice Balance/Deposit/Withdraw
 ### 3. controller.py
 controller.py is actual functional class.
 
-##_> How to use_
-###run project
->python main.py
+## > How to use
+**python main.py**
 
